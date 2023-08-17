@@ -1,0 +1,28 @@
+  498  git remote add origin https://github.com/MartinECR13/Checkpoint-160823-MartinCuauhtli.git
+  499  git init
+  500  git remote add origin https://github.com/MartinECR13/Checkpoint-160823-MartinCuauhtli.git
+  501  touch ./{main.js,index.html}
+  502  git add .
+  503  git commit -m "commit01 de Martin Cuauhtli"
+  504  git branch -M main
+  505  git push origin main
+  506  git branch feature
+  507  git switch feature
+  508  mkdir ./{Hardware,Software,SeguridadInformatica}
+  509  touch /Hardware/resumen.txt /Software/resumen.txt /SeguridadInformatica/resumen.txt
+  510  touch Hardware/resumen.txt
+  511  touch Software/resumen.txt SeguridadInformatica/resumen.txt
+  512  git status
+  513  git add .
+  514  git push origin feature
+  515  git pull origin main
+  516  git push origin feature
+  517  git commit -m "commit 02 de Martin Cuauhtli"
+  518  git push origin feature
+  519  git switch main
+  520  mv main.js resumenHardware.txt 
+  521  mv index.html resumenSoftware.txt
+  522  nano resumenHardware.txt
+  523  nano resumenSoftware.txt
+  524  touch comandos.txt
+  525  history > comandos.txt
